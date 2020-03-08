@@ -9,10 +9,11 @@ function App() {
 
   async function handleSubmit(event) {
     event.preventDefault();
-    
-   const response = await api.post('/sessions', { email })
-    
-   console.log(response);
+
+    const response = await api.post('/sessions', { email });
+    const { _id } = response.data;
+
+    localStorage.setItem('user', _id);
     
   }
   return (
