@@ -7,9 +7,12 @@ import logo from './assets/logo.svg'
 function App() {
   const [email, setEmail] = useState('')
 
-  function handleSubmit(event) {
+  async function handleSubmit(event) {
     event.preventDefault();
-    console.log(email);
+    
+   const response = await api.post('/sessions', { email })
+    
+   console.log(response);
     
   }
   return (
