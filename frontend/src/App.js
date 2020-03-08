@@ -1,5 +1,6 @@
 import React from 'react';
 import './App.css';
+import api from './services/api'
 
 import logo from './assets/logo.svg'
 
