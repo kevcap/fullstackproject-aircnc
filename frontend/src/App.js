@@ -10,9 +10,9 @@ function App() {
   async function handleSubmit(event) {
     event.preventDefault();
     
-    const response = await api.post('/sessions', { email });
+   const response = await api.post('/sessions', { email })
     
-    console.log(response);
+   console.log(response);
     
   }
   return (
