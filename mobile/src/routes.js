@@ -11,4 +11,6 @@ const Routes = createAppContainer(
     List,
     Book
   })
-)
+);
+
+export default Routes;
