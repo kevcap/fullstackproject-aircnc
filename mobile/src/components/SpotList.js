@@ -39,7 +39,7 @@ import api from '../services/api';
               <Text style={styles.company}>{item.company}</Text>
               <Text style={styles.price}>{item.price ? `${item.price}/day` : 'FREE'}</Text>
               <TouchableOpacity onPress={() => handleNavigate(item._id)} style={styles.button}>
-                <Text style={styles.buttonText}>Book</Text>
+                <Text style={styles.buttonText}>Make a book</Text>
               </TouchableOpacity>
             </View>
           ) }
