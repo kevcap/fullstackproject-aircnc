@@ -4,10 +4,20 @@ const routes = require('./routes');
 const cors = require('cors');
 const path = require('path');
 
+const socketio = require('socket.io');
+const http = require('http');
+
 
 const app = express();
 //interações com dados no server:
 //GET(busca), POST(cria), PUT(edita), DELETE(apaga);
+
+const server = http.Server(app);
+const io = socketio(server);
+
+io.on('connection', socket => {
+    console.log('Usuário conectado', socket.id);
+});
 
 mongoose.connect('mongodb+srv://omnistack:omnistack@cluster0-iqmeu.mongodb.net/semana09?retryWrites=true&w=majority', {
     useNewUrlParser: true,
@@ -23,4 +33,4 @@ app.use(express.json());
 app.use('/files', express.static(path.resolve(__dirname, '..', 'uploads')));
 app.use(routes);
 
-app.listen(3333);
+server.listen(3333);
