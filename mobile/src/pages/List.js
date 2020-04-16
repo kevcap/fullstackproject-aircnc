@@ -3,6 +3,8 @@ import { Alert, SafeAreaView, ScrollView, StyleSheet, Image, Text, AsyncStorage,
 
 import logo from '../assets/logo.png';
 
+import SpotList from '../components/SpotList';
+
 export default function List() {
   
   const [techs, setTechs] = useState([]);
@@ -20,7 +22,7 @@ export default function List() {
       <Image style={styles.logo} source={logo} />
 
       <ScrollView>
-       <Text>{techs}</Text>
+      {techs.map(tech => <SpotList key={tech} tech={tech} />)}
       </ScrollView>
     </SafeAreaView>
   )
