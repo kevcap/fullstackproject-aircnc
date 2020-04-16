@@ -4,6 +4,8 @@ import { View, StyleSheet, Text, FlatList, Image, TouchableOpacity } from 'react
 
 import api from '../services/api';
 
+//parei em 01:31:30
+
 function SpotList({ tech, navigation }) {
   const [spots, setSpots] = useState([]);
 
