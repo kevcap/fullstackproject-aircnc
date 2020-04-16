@@ -1,11 +1,18 @@
-import React, { useEffect, useState } from 'react'
-import { Link } from 'react-router-dom'
+import React, { useEffect, useState } from 'react';
+import { Link } from 'react-router-dom';
+import socketio from 'socket.io-client';
 import api from '../../services/api';
+
 import './style.css';
 
 export default function Dashboard() {
     const [spots, setSpots] = useState([]);
 
+    useEffect(() => {
+        const socket = socketio('http://localhost:3333');
+				
+				socket.emit('hello', 'Word');
+    }, [])
     useEffect(() => {
         async function loadSpots(){
             const user_id = localStorage.getItem('user');

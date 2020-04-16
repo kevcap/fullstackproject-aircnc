@@ -15,13 +15,23 @@ const app = express();
 const server = http.Server(app);
 const io = socketio(server);
 
+const connectedUsers = {};
+
 io.on('connection', socket => {
-    console.log('Usuário conectado', socket.id);
+  const { user_id } = socket.handshake.query;
+	console.log('Usuário conectado: ', socket.id);
+	//makes real-time connection between front and backend
+
+	connectedUsers[user_id] = socket.id
+
+	console.log('Hanshake: ', socket.handshake.query);
+	console.log(connectedUsers);
+	
 });
 
 mongoose.connect('mongodb+srv://omnistack:omnistack@cluster0-iqmeu.mongodb.net/semana09?retryWrites=true&w=majority', {
-    useNewUrlParser: true,
-    useUnifiedTopology: true
+	useNewUrlParser: true,
+	useUnifiedTopology: true
 })
 
 //req.query = acessar query params (filtros);
