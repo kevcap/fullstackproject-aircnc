@@ -1,4 +1,4 @@
-<h3 align="center">HTML Capstone Project</h3>
+<h3 align="center">AirCnC Fullstack project</h3>
 
 <div align="center">
 
@@ -25,7 +25,7 @@
 
 
 ## 🧐 About <a name = "about"></a>
-<h3 align="center"> This is an assigment for Microverse's HTML and CSS course, and the goal is to build your own personalized page, taking <a href="https://www.behance.net/gallery/24796463/ZATTIX">this</a> project as parameter, so I designed a online courses shop, like udemy, pluralsight and others.</h3>
+<h3 align="center"> This is a Fullstack project, inclusing a beckend built in node.js, a website built in React.JS and a mobile app built with React Native.</h3>
 
 <p align="center">
   <a href="" rel="noopener">
