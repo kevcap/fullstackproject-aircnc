@@ -22,7 +22,7 @@ io.on('connection', socket => {
 	console.log('Usuário conectado: ', socket.id);
 	//makes real-time connection between front and backend
 
-	connectedUsers[user_id] = socket.id
+	connectedUsers[user_id] = socket.id;
 
 	console.log('Hanshake: ', socket.handshake.query);
 	console.log(connectedUsers);
