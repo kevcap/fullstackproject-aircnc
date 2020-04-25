@@ -34,6 +34,7 @@
 </p>
 
 ---
+<!--// ENTENDER PQ AS IMAGENS ESTÃO VINDO COM UM ESPAÇO E PQ O SOCKET.IO NÃO ESTÁ RETORNANDO O USER ID-->
 
 ## 🔧 Built with<a name = "built_using"></a>
 
