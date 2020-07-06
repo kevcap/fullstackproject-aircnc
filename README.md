@@ -3,10 +3,10 @@
 <div align="center">
 
 [![Status](https://img.shields.io/badge/status-active-success.svg)]()
-[![Github Issues](https://img.shields.io/badge/GitHub-Issues-orange)](https://github.com/kevinfrontend/HTML-CSS-Capstone-Project/issues)
-[![GitHub2 Pull Requests](https://img.shields.io/badge/GitHub-Pull%20Requests-blue)](https://github.com/kevinfrontend/HTML-CSS-Capstone-Project/pulls)
+[![Github Issues](https://img.shields.io/badge/GitHub-Issues-orange)](https://github.com/kevdeveloper/fullstackproject-aircnc/issues)
+[![GitHub2 Pull Requests](https://img.shields.io/badge/GitHub-Pull%20Requests-blue)](https://github.com/kevdeveloper/fullstackproject-aircnc/pulls)
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](/LICENSE)
-[![Made By](https://img.shields.io/badge/Made%20By-Kevin%20Alves-brightgreen)](https://github.com/kevinfrontend)
+[![Made By](https://img.shields.io/badge/Made%20By-Kevin%20Alves-brightgreen)](https://github.com/kevdeveloper)
 [![Twitter Follow](https://img.shields.io/twitter/follow/kevinfrontend?label=Follow%20Kevin%20on%20Twitter&style=social)](https://twitter.com/kevinfrontend)
 
 </div>
@@ -18,63 +18,56 @@
 <a href="#about">About</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
 <a href="#installing">Installing</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
 <a href="#built_using">Built with</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-<a href="#live-demo">Live Demo</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-<a href="#presentation">Presentation</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
 <a href="#author">Author</a>
 </p>
 
 
 ## 🧐 About <a name = "about"></a>
-<h3 align="center"> This is a Fullstack project, inclusing a beckend built in node.js, a website built in React.JS and a mobile app built with React Native.</h3>
+<h3 align="center"> AirCnC is a Fullstack project, inclusing a beckend built in node.js, a website built in React.JS and a mobile app built with React Native. It aims to connect companies that want to open spots and developers looking for a place to exchange ideas with devs, get to know the company and work there for a period.</h3>
 
 <p align="center">
   <a href="" rel="noopener">
-  <img src="img/projeto.png" alt="projeto">
-  <img src="./img/screenshot.gif" alt="Project Screenshot"></a>
+  <img src="./img/screenshot.png" alt="Project Screenshot"></a>
 </p>
 
----
-<!--// ENTENDER PQ AS IMAGENS ESTÃO VINDO COM UM ESPAÇO E PQ O SOCKET.IO NÃO ESTÁ RETORNANDO O USER ID-->
 
 ## 🔧 Built with<a name = "built_using"></a>
 
-- [HTML and CSS](https://www.w3schools.com/) - HTML5 and CSS3
-- [Sass](https://www.sass.com/) - HTML5 and CSS3
-- [Stickler](https://stickler-ci.com) - A CSS Linter 
-- [W3 HTML Validator](https://validator.w3.org/) - A Markup Validation Service
-- [Bootstrap 4](https://getbootstrap.com/) - The most popular HTML, CSS, and JS library in the world;
-- [JQuery](https://www.jquery.com/) - The Write Less, Do More, JavaScript Library;
+- [Node.js](https://nodejs.org/en/) - a JavaScript runtime built on Chrome's V8 JavaScript engine.
+- [React](https://reactjs.org/) - A JavaScript library for building user interfaces
+- [React Native](https://reactnative.dev/) - A framework for building native apps with React
+- [MongoDB](https://www.mongodb.com/) -  The most popular database for modern apps;
+- [Expo](https://expo.io/) -  an open-source platform for making universal native apps for Android, iOS, and the web with JavaScript and React.
+- [Nodemon](https://nodemon.io/) - a utility that will monitor for any changes in your source and automatically restart your server;
+- [SOCKET.IO](https://socket.io/) - THE FASTEST AND MOST RELIABLE REAL-TIME ENGINE;
+- [Axios](https://github.com/axios/axios) -  Promise based HTTP client for the browser and node.js ;
+- [Insomnia](https://insomnia.rest/) - a free cross-platform desktop application that takes the pain out of interacting with HTTP-based APIs;
 - [PhotoShop CC](https://adobe.com/) - The most powerfull photo editor ever made;
-
-## 🔴 Live Demo <a name = "live-demo"></a>
-
-[Live Demo](https://rawcdn.githack.com/kevinfrontend/HTML-CSS-Capstone-Project/80499605d8704766ebb4db52f8d89ccee5e8df5d/index.html)
-
-## 📺 Video Presentation <a name = "presentation"></a>
-
-[Video Presentation](https://www.loom.com/share/caf9c0ce3cec45258e279555f6582b84)
 
 ### 🛠 Installing <a name = "installing"></a>
 
 ```
-- Clone or download this repository;
-- Unpack (if downloaded);
-- Execute index.html on your favorite browser;
+- fork this repository
+- clone it 
+- npm install whenever necessary
+- yarn dev/yarn start
+
+***in order to see the backend working, you have to create an acc at mongoDB and add your login:pass at server.js
 
 ```
 ## ✒️  Autor <a name = "author"></a>
 
 👤 **Kevin Alves**
 
-- Github: [@kevinfrontend](https://github.com/kevinfrontend)
+- Github: [@kevinfrontend](https://github.com/kevdeveloper)
 - Twitter: [@kevinfrontend](https://twitter.com/kevinfrontend)
-- Linkedin: [@kevinfrontend](https://www.linkedin.com/in/kevinfrontend/)
+- Linkedin: [@kevinfrontend](https://www.linkedin.com/in/kevinnn/)
 
 ## 🤝 Contributing
 
 Contributions, issues and feature requests are welcome!
 
-Feel free to check the [issues page](https://github.com/kevinfrontend/HTML-CSS-Capstone-Project/issues).
+Feel free to check the [issues page](https://github.com/kevdeveloper/fullstackproject-aircnc/issues).
 
 
 ## 👍 Show your support
@@ -85,19 +78,5 @@ Give a ⭐️ if you like this project!
 ## 📝 License
 
 This project is free to use as learning purposes. For any external content (e.g. logo, images, ...), please contact the proper author and check their license of use.
-
-
-## 📣 Note from Author to you: 
-
-As always, I like to write some unrelated things here, to make our relationship closer, today I'd like to say a few things, remind you about the covid-19 outbreak:
-
-```
-Wash hands 🚿 ;
-Avoid touching people 👋;
-Stay home! Keep youself safe 🏡;
-Take care of your loved ones 👪;
-
-Wish you a Happy coding and a Happy life  ❤️
-```
 
 <small>Template made by <a href='https://twitter.com/kevinfrontend'>Kevin Alves</a></small>
