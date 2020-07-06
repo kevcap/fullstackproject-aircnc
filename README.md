@@ -3,20 +3,20 @@
 </h1>
 <h3 align="center">AirCnC Fullstack project</h3>
 
-<div align="center">
+<h4 align="center">
+  🛸 Stay hungry, stay foolish
+</h4>
 
-[![Status](https://img.shields.io/badge/status-active-success.svg)]()
-[![Github Issues](https://img.shields.io/badge/GitHub-Issues-orange)](https://github.com/kevdeveloper/fullstackproject-aircnc/issues)
-[![GitHub2 Pull Requests](https://img.shields.io/badge/GitHub-Pull%20Requests-blue)](https://github.com/kevdeveloper/fullstackproject-aircnc/pulls)
+<div align="center">
+    
+[![languages](https://img.shields.io/github/languages/count/kevdeveloper/fullstackproject-aircnc?style=plastic)]()
+[![Last commit](https://img.shields.io/github/last-commit/kevdeveloper/fullstackproject-aircnc)](https://github.com/kevdeveloper/fullstackproject-aircnc/commits/master)
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](/LICENSE)
+[![issues](https://img.shields.io/github/issues/kevdeveloper/fullstackprojec-aircnc)](/LICENSE)
 [![Made By](https://img.shields.io/badge/Made%20By-Kevin%20Alves-brightgreen)](https://github.com/kevdeveloper)
 [![Twitter Follow](https://img.shields.io/twitter/follow/kevinfrontend?label=Follow%20Kevin%20on%20Twitter&style=social)](https://twitter.com/kevinfrontend)
-
 </div>
 
----
-
-## 📝 Content
 <p align="center">
 <a href="#about">About</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
 <a href="#installing">Installing</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
@@ -62,7 +62,7 @@
 
 👤 **Kevin Alves**
 
-- Github: [@kevinfrontend](https://github.com/kevdeveloper)
+- Github: [@kevdeveloper](https://github.com/kevdeveloper)
 - Twitter: [@kevinfrontend](https://twitter.com/kevinfrontend)
 - Linkedin: [@kevinfrontend](https://www.linkedin.com/in/kevinnn/)
 
