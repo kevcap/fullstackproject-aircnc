@@ -1,3 +1,6 @@
+<h1 align="center">
+    <img alt="Aircnc" title="#teste" src=".github/logo.png" width="250px" />
+</h1>
 <h3 align="center">AirCnC Fullstack project</h3>
 
 <div align="center">
@@ -21,14 +24,14 @@
 <a href="#author">Author</a>
 </p>
 
+<p align="center">
+  <a href="" rel="noopener">
+  <img alt="Project Screenshot" src=".github/project.png" width="100%">
+  </a>
+</p>
 
 ## 🧐 About <a name = "about"></a>
 <h3 align="center"> AirCnC is a Fullstack project, inclusing a beckend built in node.js, a website built in React.JS and a mobile app built with React Native. It aims to connect companies that want to open spots and developers looking for a place to exchange ideas with devs, get to know the company and work there for a period.</h3>
-
-<p align="center">
-  <a href="" rel="noopener">
-  <img src="./img/screenshot.png" alt="Project Screenshot"></a>
-</p>
 
 
 ## 🔧 Built with<a name = "built_using"></a>
