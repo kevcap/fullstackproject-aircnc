@@ -60,7 +60,7 @@ export default function New({ history }) {
         onChange={event => setTechs(event.target.value)}
       />
 
-      <label htmlFor="price">DAILY VALUE * <span>(blank if FREE)</span></label>
+      <label htmlFor="price">DAILY VALUE ($)* <span>(blank if FREE)</span></label>
       <input 
         id="price"
         placeholder="Value charged daily"

@@ -14,7 +14,7 @@ const io = socketio(server);
 //interações com dados no server:
 //GET(busca), POST(cria), PUT(edita), DELETE(apaga);
 
-mongoose.connect('mongodb+srv://omnistack:omnistack@cluster0-iqmeu.mongodb.net/semana09?retryWrites=true&w=majority', {
+mongoose.connect('yourmongodbLogin', {
   useNewUrlParser: true,
   useUnifiedTopology: true,
 })

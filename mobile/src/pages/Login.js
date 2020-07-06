@@ -9,7 +9,6 @@ export default function Login({ navigation }) {
   const [email, setEmail] = useState('');
   const [techs, setTechs] = useState('');
 
-    //Apagar esse useEffect para poder voltar para o login.
   useEffect(() => {
     AsyncStorage.getItem('user').then(user => {
       if (user) {
@@ -36,10 +35,10 @@ export default function Login({ navigation }) {
       <Image source={logo} />
 
       <View style={styles.form}>
-        <Text style={styles.label}>YOUR E-MAIL *</Text>
+        <Text style={styles.label}>SEU E-MAIL *</Text>
         <TextInput
           style={styles.input}
-          placeholder="Your e-mail"
+          placeholder="Seu e-mail"
           placeholderTextColor="#999"
           keyboardType="email-address"
           autoCapitalize="none"
@@ -48,10 +47,10 @@ export default function Login({ navigation }) {
           onChangeText={setEmail}
         />
 
-        <Text style={styles.label}>TECHNOLOGIES*</Text>
+        <Text style={styles.label}>TECNOLOGIAS *</Text>
         <TextInput
           style={styles.input}
-          placeholder="Technologies of your interest"
+          placeholder="Tecnologias de interesse"
           placeholderTextColor="#999"
           autoCapitalize="words"
           autoCorrect={false}
@@ -60,7 +59,7 @@ export default function Login({ navigation }) {
         />
 
         <TouchableOpacity onPress={handleSubmit} style={styles.button}>
-          <Text style={styles.buttonText}>Find spots</Text>
+          <Text style={styles.buttonText}>Encontrar spots</Text>
         </TouchableOpacity>
       </View>
     </KeyboardAvoidingView>

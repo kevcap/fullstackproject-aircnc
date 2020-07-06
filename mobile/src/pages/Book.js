@@ -16,7 +16,7 @@ export default function Book({ navigation }) {
       headers: { user_id }
     })
 
-    Alert.alert('Booking request sent');
+    Alert.alert('Solicitação de reserva enviada.');
 
     navigation.navigate('List');
   }
@@ -24,6 +24,7 @@ export default function Book({ navigation }) {
   function handleCancel() {
     navigation.navigate('List');
   }
+
 
   return (
     <SafeAreaView style={styles.container}>
