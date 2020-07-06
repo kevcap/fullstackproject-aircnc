@@ -16,7 +16,7 @@ export default function Book({ navigation }) {
       headers: { user_id }
     })
 
-    Alert.alert('Solicitação de reserva enviada.');
+    Alert.alert('Booking request sent');
 
     navigation.navigate('List');
   }
@@ -27,10 +27,10 @@ export default function Book({ navigation }) {
 
   return (
     <SafeAreaView style={styles.container}>
-      <Text style={styles.label}>DATA DE INTERESSE *</Text>
+      <Text style={styles.label}>DATE OF INTEREST*</Text>
       <TextInput
         style={styles.input}
-        placeholder="Qual data você quer reservar?"
+        placeholder="Which day you want to book"
         placeholderTextColor="#999"
         autoCapitalize="words"
         autoCorrect={false}
@@ -39,11 +39,11 @@ export default function Book({ navigation }) {
       />
 
       <TouchableOpacity onPress={handleSubmit} style={styles.button}>
-        <Text style={styles.buttonText}>Solicitar reserva</Text>
+        <Text style={styles.buttonText}>Request booking</Text>
       </TouchableOpacity>
 
       <TouchableOpacity onPress={handleCancel} style={[styles.button, styles.cancelButton]}>
-        <Text style={styles.buttonText}>Cancelar</Text>
+        <Text style={styles.buttonText}>Cancel</Text>
       </TouchableOpacity>
     </SafeAreaView>
   );
