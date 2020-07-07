@@ -47,7 +47,7 @@ export default function New({ history }) {
       <label htmlFor="company">COMPANY *</label>
       <input 
         id="company"
-        placeholder="Sua empresa incrível"
+        placeholder="Your amazing company"
         value={company}
         onChange={event => setCompany(event.target.value)}
       />

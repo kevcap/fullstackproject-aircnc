@@ -18,17 +18,21 @@ export default function Login({ navigation }) {
   }, []);
 
   async function handleSubmit() {
-    const response = await api.post('/sessions', {
-      email
-    })
-
-    const { _id } = response.data;
-
-    await AsyncStorage.setItem('user', _id);
-    await AsyncStorage.setItem('techs', techs);
-
-    navigation.navigate('List');
-  }
+    try {
+      const response = await api.post('/sessions', {
+        email
+      })
+      
+      const { _id } = response.data;
+      
+      await AsyncStorage.setItem('user', _id);
+      await AsyncStorage.setItem('techs', techs);
+      
+      navigation.navigate('List');
+    } catch (error) {
+      console.log(error)
+    }
+    }
 
   return (
     <KeyboardAvoidingView enabled={Platform.OS === 'ios'} behavior="padding" style={styles.container}>
