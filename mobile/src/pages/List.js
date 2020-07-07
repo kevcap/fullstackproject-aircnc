@@ -16,7 +16,7 @@ export default function List() {
       })
 
       socket.on('booking_response', booking => {
-        Alert.alert(`Sua reserva em ${booking.spot.company} em ${booking.date} foi ${booking.approved ? 'APROVADA' : 'REJEITADA'}`);
+        Alert.alert(`Your booking at ${booking.spot.company} at ${booking.date} was ${booking.approved ? 'APPROVED' : 'REJECTED'}`);
       })
     })
   }, []);

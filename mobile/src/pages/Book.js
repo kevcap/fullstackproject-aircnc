@@ -16,7 +16,7 @@ export default function Book({ navigation }) {
       headers: { user_id }
     })
 
-    Alert.alert('Solicitação de reserva enviada.');
+    Alert.alert('Booking request sent.');
 
     navigation.navigate('List');
   }

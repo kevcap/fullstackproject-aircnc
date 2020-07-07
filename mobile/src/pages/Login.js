@@ -39,10 +39,10 @@ export default function Login({ navigation }) {
       <Image source={logo} />
 
       <View style={styles.form}>
-        <Text style={styles.label}>SEU E-MAIL *</Text>
+        <Text style={styles.label}>YOUR E-MAIL *</Text>
         <TextInput
           style={styles.input}
-          placeholder="Seu e-mail"
+          placeholder="Your e-mail"
           placeholderTextColor="#999"
           keyboardType="email-address"
           autoCapitalize="none"
@@ -51,10 +51,10 @@ export default function Login({ navigation }) {
           onChangeText={setEmail}
         />
 
-        <Text style={styles.label}>TECNOLOGIAS *</Text>
+        <Text style={styles.label}>TECHNOLOGIES *</Text>
         <TextInput
           style={styles.input}
-          placeholder="Tecnologias de interesse"
+          placeholder="Technologies of interest"
           placeholderTextColor="#999"
           autoCapitalize="words"
           autoCorrect={false}
@@ -63,7 +63,7 @@ export default function Login({ navigation }) {
         />
 
         <TouchableOpacity onPress={handleSubmit} style={styles.button}>
-          <Text style={styles.buttonText}>Encontrar spots</Text>
+          <Text style={styles.buttonText}>Find spots</Text>
         </TouchableOpacity>
       </View>
     </KeyboardAvoidingView>
