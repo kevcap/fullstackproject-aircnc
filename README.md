@@ -36,14 +36,15 @@
 
 ## 🔧 Built with<a name = "built_using"></a>
 
-- [Node.js](https://nodejs.org/en/) - a JavaScript runtime built on Chrome's V8 JavaScript engine.
-- [React](https://reactjs.org/) - A JavaScript library for building user interfaces
-- [React Native](https://reactnative.dev/) - A framework for building native apps with React
-- [MongoDB](https://www.mongodb.com/) -  The most popular database for modern apps;
-- [Expo](https://expo.io/) -  an open-source platform for making universal native apps for Android, iOS, and the web with JavaScript and React.
+- [Node.js](https://nodejs.org/en/) - a JavaScript runtime built on Chrome's V8 JavaScript engine;
+- [React](https://reactjs.org/) - A JavaScript library for building user interfaces;
+- [React Native](https://reactnative.dev/) - A framework for building native apps with React;
+- [MongoDB](https://www.mongodb.com/) - The most popular database for modern apps;
+- [Express.js](https://expressjs.com/) - Fast, unopinionated, minimalist web framework for Node.js;
+- [Expo](https://expo.io/) -  an open-source platform for making universal native apps for Android, iOS, and the web with JavaScript and React;
 - [Nodemon](https://nodemon.io/) - a utility that will monitor for any changes in your source and automatically restart your server;
 - [SOCKET.IO](https://socket.io/) - THE FASTEST AND MOST RELIABLE REAL-TIME ENGINE;
-- [Axios](https://github.com/axios/axios) -  Promise based HTTP client for the browser and node.js ;
+- [Axios](https://github.com/axios/axios) -  Promise based HTTP client for the browser and node.js;
 - [Insomnia](https://insomnia.rest/) - a free cross-platform desktop application that takes the pain out of interacting with HTTP-based APIs;
 - [PhotoShop CC](https://adobe.com/) - The most powerfull photo editor ever made;
 
