@@ -50,15 +50,46 @@
 
 ### 🛠 Installing <a name = "installing"></a>
 
-```
-- fork this repository
-- clone it 
-- npm install whenever necessary
-- yarn dev/yarn start
+### :gear: Backend: 
 
-***in order to see the backend working, you have to create an acc at mongoDB and add your login:pass at server.js
+```bash
+# Clone this repo
+$  git clone https://github.com/kevdeveloper/fullstackproject-aircnc.git
+# Open the backend folder
+$ cd backend
+# Install it's dependences
+$ yarn
+# run yarn start
+$ yarn start 
 
 ```
+
+### :computer: Frontend: 
+
+```bash
+#Open the frontend folder
+$ cd frontend 
+#Install it's dependences
+$ yarn 
+#Start the aplication
+$ yarn start
+```
+
+### :iphone: Mobile:
+
+```bash
+#Open the mobile folder
+$ cd mobile 
+#Install it's dependences
+$ yarn 
+# Android 
+$ react-native run-android
+#iOS 
+$ react-native run-ios
+```
+<small>***in order to see the backend working, you have to create an acc at mongoDB and add your login:pass at server.js</small>
+
+
 ## ✒️  Autor <a name = "author"></a>
 
 👤 **Kevin Alves**
@@ -79,8 +110,13 @@ Feel free to check the [issues page](https://github.com/kevdeveloper/fullstackpr
 Give a ⭐️ if you like this project!
 
 
+## 🏆 Acknowledgement
+- @felipedeschamps
+- @fdfragoso 
+- @alexbotelhoa
+
+
+
 ## 📝 License
 
 This project is free to use as learning purposes. For any external content (e.g. logo, images, ...), please contact the proper author and check their license of use.
-
-<small>Template made by <a href='https://twitter.com/kevinfrontend'>Kevin Alves</a></small>
